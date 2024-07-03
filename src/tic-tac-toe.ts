@@ -1,3 +1,4 @@
+// custom types to represent board state
 export type Row = ('X' | 'O' | '.')[];
 export type Board = Row[];
 
