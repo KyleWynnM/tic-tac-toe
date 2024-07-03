@@ -1,9 +1,6 @@
 export type Row = ('X' | 'O' | '.')[];
 export type Board = Row[];
 
-/**
- * 
- */
 export class TicTacToe {
     /**
      * checkWinner summizes all helper functions to check the board for all possible wins by checking any possible win condition
