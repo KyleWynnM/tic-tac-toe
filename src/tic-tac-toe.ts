@@ -2,6 +2,9 @@ export type Row = ('X' | 'O' | '.')[];
 export type Board = Row[];
 
 export class TicTacToe {
+    
+    // THREE MAIN FUNCTIONS
+    
     /**
      * checkWinner summizes all helper functions to check the board for all possible wins by checking any possible win condition
      * @param board the game state
@@ -90,6 +93,8 @@ export class TicTacToe {
 
         return "The game is still going!";
     }
+
+    // HELPER FUNCTIONS
     
     /**
      * checkRow checks an individual row in the board for a win there. By checking if all four values are equal a winner is determined
